@@ -11,7 +11,7 @@ headers:
 - "Content-Type: application/json"
 testCases: []
 assertions:
-- "@StatusCode == 401"
+- "@StatusCode != 200"
 tags:
 - "V1"
 authors:
